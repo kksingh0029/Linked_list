@@ -24,7 +24,7 @@ public class SortMapByValue
         unsortMap.put("A", 80);
         unsortMap.put("D", 20);
         unsortMap.put("C", 70);
-
+ 
         System.out.println("Before sorting......");
         printMap(unsortMap);
 
