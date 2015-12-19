@@ -17,7 +17,7 @@ public class SortMapByValue
 
     public static void main(String[] args)
     {
-
+   System.out.println("test1");
         // Creating dummy unsorted map
         Map<String, Integer> unsortMap = new HashMap<String, Integer>();
         unsortMap.put("B", 55);

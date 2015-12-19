@@ -64,7 +64,7 @@ public class SortMapByValue
         // Maintaining insertion order with the help of LinkedList
         Map<String, Integer> sortedMap = new LinkedHashMap<String, Integer>();
         for (Entry<String, Integer> entry : list)
-        {
+        { System.out.println("test111");
             sortedMap.put(entry.getKey(), entry.getValue());
         }
 
